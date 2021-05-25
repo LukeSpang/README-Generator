@@ -99,22 +99,22 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data){
-    const {title, descripton, install, usage, license, contribute, test, github, email} = data;
+    const {title, description, install, usage, license, contribute, test, github, email} = data;
     //console.log('this is the data', data)
     let readmeConstruct = `#${title}
     
     ## Description
 
-    ${descripton}
+    ${description}
 
     ## Table of Contents
 
-    *[Install](##Installation)
-    *[Usage](##Usage)
-    *[License](##License)
-    *[Contribute](##Contribute)
-    *[Tests](##)Tests
-    *[Questions](##Questions)
+    * [Install](## Installation)
+    * [Usage](## Usage)
+    * [License](## License)
+    * [Contribute](## Contribute)
+    * [Tests](## Tests)
+    * [Questions](## Questions)
     
 
     ## Installation
@@ -123,23 +123,23 @@ function writeToFile(fileName, data){
 
     ${install}
 
-    ##Usage
+    ## Usage
 
     ${usage}
 
-    ##License
+    ## License
 
     This project/application uses the ${license}. 
 
-    ##Contributing
+    ## Contributing
 
     ${contribute}
 
-    ##Test
+    ## Test
 
     ${test}
 
-    ##Questions
+    ## Questions
 
     If there are any questions regarding the repo, or any techincal issues, please feel free to contact me at ${email}. You can also find me at (https://github.com/${github})
     `
