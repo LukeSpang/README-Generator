@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "README-Generator",
+			"path": "."
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
