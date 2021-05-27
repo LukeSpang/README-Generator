@@ -20,7 +20,7 @@ This project/application is covered under the ${answers.license} license.
 
 ## Table of Contents
 
-* [Install](#Installation)
+* [Install](#Install)
 * [Usage](#Usage)
 * [Contribute](#Contribute)
 * [Tests](#Tests)
