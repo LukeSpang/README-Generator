@@ -2,7 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util')
-const readme = require('./util/readme.js')
+const readme = require('./util/readme')
 const writeFile = util.promisify(fs.writeFile);
 
 

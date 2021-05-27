@@ -1,57 +1,65 @@
 function readme(answers){
-    return`
-    <h1 align="center">#${answers.title}</h1>
-    <br>
+    return `<h1 align="center">${answers.title}</h1>
+
+<br>
     
-    ## Description
+## Description
 
-    ${answers.description}
-    <br>
+${answers.description}
 
-    ## License
+<br>
 
-    This project/application uses the ${answers.license}.
-    ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
-    <br>
+## License
+
+This project/application uses the ${answers.license}.
+
+![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
+
+<br>
 
 
-    ## Table of Contents
+## Table of Contents
 
-    * [Install] (## Installation)
-    * [Usage] (## Usage)
-    * [Contribute] (## Contribute)
-    * [Tests] (## Tests)
-    * [Questions] (## Questions)
-    <br>
+* [Install](#Installation)
+* [Usage](#Usage)
+* [Contribute](#Contribute)
+* [Tests](#Tests)
+* [Questions](#Questions)
+<br>
     
 
-    ## Installation
+## Installation
 
-    In order to install this application run the command below:
+In order to install this application run the command below:
 
-    ${answers.install}
-    <br>
+${answers.install}
 
-    ## Usage
+<br>
 
-    ${answers.usage}
-    <br>
+## Usage
+
+${answers.usage}
+
+<br>
 
 
-    ## Contributing
+## Contributing
 
-    ${answers.contribute}
-    <br>
+${answers.contribute}
 
-    ## Test
+<br>
 
-    ${answers.test}
-    <br>
+## Test
 
-    ## Questions
+${answers.test}
 
-    If there are any questions regarding the repo, or any techincal issues, please feel free to contact me at ${answers.email}. You can also find me at (https://github.com/${answers.github})
-    `
+<br>
+
+## Questions
+
+If there are any questions regarding the repo, or any techincal issues, please feel free to contact me at [${answers.email}]. You can also find me at (https://github.com/${answers.github})
+    
+`;
 }
 
 module.exports = readme;
