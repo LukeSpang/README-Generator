@@ -11,7 +11,7 @@ ${answers.description}
 
 ## License
 
-This project/application uses the ${answers.license}.
+This project/application is covered under the ${answers.license} license.
 
 ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
 
@@ -28,7 +28,7 @@ This project/application uses the ${answers.license}.
 <br>
     
 
-## Installation
+## Install
 
 In order to install this application run the command below:
 
@@ -43,13 +43,13 @@ ${answers.usage}
 <br>
 
 
-## Contributing
+## Contribute
 
 ${answers.contribute}
 
 <br>
 
-## Test
+## Tests
 
 ${answers.test}
 
@@ -57,7 +57,7 @@ ${answers.test}
 
 ## Questions
 
-If there are any questions regarding the repo, or any techincal issues, please feel free to contact me at [${answers.email}]. You can also find me at (https://github.com/${answers.github})
+If there are any questions regarding the repo, or any techincal issues, please feel free to contact me at my personal email: ${answers.email}. You can also find me at (https://github.com/${answers.github})
     
 `;
 }
